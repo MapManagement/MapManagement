@@ -11,7 +11,7 @@ what I'm talking about, simply just click on the link above. Everything importan
 **[Client](https://github.com/MapManagement/DoDo)**  
 DoDo is an Android application which is written in Kotlin and has the main purpose of storing your ToDos and notes you shouldn't forget but certainly would without any
 note taking app. The application is still in development and therefore there is no release to test yet.  
-**[Server](https://github.com/MapManagement/DoDo-Server)**
+**[Server](https://github.com/MapManagement/DoDo-Server)**  
 DoDo will also allow you to synychronize your local data with a server. Since the code for the server program is open-source as well, you can easily host the program on
 your own machine. The connection is based on gRPC to ensure a safe and stable data transfer between the Kotlin client and the Python server.
 
