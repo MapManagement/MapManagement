@@ -1,32 +1,31 @@
 # Welcome to my profile...
-No matter how you found my profile, following text will introduce you to my projects and the stuff I already worked with:
 
-## My current projects are...
-### [gpu-passthrough](https://github.com/MapManagement/gpu-passthrough)
-This repository is about my approach to setup a machine that is able to run multiple operating systems simultaneously (mainly Windows 10 and Linux) without any
-big loss of performance in games for example. This can be reached by using virtual machines which can access a dedicated graphics card. If you're already curious
-what I'm talking about, simply just click on the link above. Everything important should be explained good enough :)
+## Working on...
+- [AivaptDotNet](https://github.com/MapManagement/AivaptDotNet) is a Discord bot which can perform several tasks like playing
+music, storing user generated commands and providing information fetched from multiple APIs.
+- [DoDo](https://github.com/MapManagement/DoDo) is primarily an Android application to write down notes and todos. I also
+planned on developing some kind of a [server](https://github.com/MapManagement/DoDo-Server) to synchronize all data from
+clients to a centralized storage.
 
-## DoDo
-**[Client](https://github.com/MapManagement/DoDo)**  
-DoDo is an Android application which is written in Kotlin and has the main purpose of storing your ToDos and notes you shouldn't forget but certainly would without any
-note taking app. The application is still in development and therefore there is no release to test yet.  
-**[Server](https://github.com/MapManagement/DoDo-Server)**  
-DoDo will also allow you to synychronize your local data with a server. Since the code for the server program is open-source as well, you can easily host the program on
-your own machine. The connection is based on gRPC to ensure a safe and stable data transfer between the Kotlin client and the Python server.
+## Updating all the time...
+- [gpu-passthrough](https://github.com/MapManagement/gpu-passthrough) isn't any of my coding projects. I created this repo to
+track my progress on and write down important steps of passing a whole GPU to a virtual machine under Linux. Somehow it
+represents the creation of my current work environment.
 
-## UnChat
-UnChat is one of my biggest projects so far. It is more or less a chat platform based on Google's gRPC, C#/WPF and also on Python including a SQL database. The
-reason why that many frameworks and languages are part of this project, is following: I created a client (C#/WPF) and a server (Python/SQL) which communicate via gRPC.
-Both parts have their own repositoy on my GitHub profile.  
-**[Server](https://github.com/MapManagement/un-chat)** | **[Client](https://github.com/MapManagement/un-chat-client)**
+## Already finished...
+- un-chat contains a client program (not yet public) and a [server programm](https://github.com/MapManagement/un-chat) and
+was meant to work as a simple desktop messenger to test the gRPC framework.
+- [weisserbot](https://github.com/MapManagement/weisserbot) is also a bot and was used to deliver information in a Twitch chat in one of my friends' stream.
+- [Countdown](https://github.com/MapManagement/Countdown) can be seen as a fun project for a good friend. It's an Android
+application which either works like a stopwatch or a timer but can be customized in some aspects. Don't expect too much :)
+- [mapgame](https://github.com/MapManagement/mapgame) shouldn't be taken too seriously as well. I wanted to test some game
+libraries for Python and started to write this little game. Maybe I'll rework it in the future, who knows.
+- [MapApp](https://github.com/MapManagement/MapApp) was my first mobile application for Andrdoid devices using Kotlin.
+I intented to create an app that helps me to learn vocbularies or some other stuff especially for school.
 
-## Most experiences with..
-- Kotlin, especially with Android applications
-- Python in many different sections
-- SQL (MySQL and MariaDB)
-- C# including the .NET family
-- gRPC  
+## Needs to be maintained...
+- [spotify-assistant](https://github.com/MapManagement/spotify-assistant) should have been a simple CLI software that allows
+me to do some useful things with my Spotify player and/or account by using the official Spotify API.
 
-Nonetheless, I would not call my an expert in any of these languages/frameworks/technologies. Therefore I will never stop to learn new stuff, either in my free time or
-at work.
+## Contributing to...
+- nothing yet ):
