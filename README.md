@@ -2,45 +2,45 @@
 
 ## Working on...
 
-- [AivaptDotNet](https://github.com/MapManagement/AivaptDotNet) is a Discord bot which can perform several tasks like playing
+- [AivaptDotNet](https://github.com/MapManagement/AivaptDotNet): A Discord bot which can perform several tasks like playing
 music, storing user generated commands and providing information fetched from multiple APIs.
-- [spotify-assistant](https://github.com/MapManagement/spotify-assistant) should have been a simple CLI software that allows
-me to do some useful things with my Spotify player and/or account by using the official Spotify API.
-- [game-servers](https://github.com/MapManagement/game-servers) contains a variety of dockerfiles to deploy game servers
-fast and easily.
+- [Advent of Code 2022](https://github.com/MapManagement/AoC2022): My approach to solve all tasks of 2022. Most solutions
+are written in either C#, Python or Rust.
 
 ## Updating all the time...
 
-- [gpu-passthrough](https://github.com/MapManagement/gpu-passthrough) isn't any of my coding projects. I created this repo to
-track my progress on and write down important steps of passing a whole GPU to a virtual machine under Linux. Somehow it
-represents the creation of my current work environment.
-- [dotfiles](https://github.com/MapManagement/dotfiles) contains all my customizations of my Linux desktop
+- [gpu-passthrough](https://github.com/MapManagement/gpu-passthrough): Represents a documentation of how to set up GPU
+passthrough under Linux while providing multiple helpful tips and tricks.
+- [dotfiles](https://github.com/MapManagement/dotfiles): My dotfiles don't only contain all my customizations of my Linux
+desktop but also a working Ansible playbook to recreate my machine by only executing a handful of commands.
+- [game-servers](https://github.com/MapManagement/game-servers): Some Dockerfiles which contain game servers of smaller and
+less resource-intensive (indie) games.
 
 ## Already finished...
 
-- un-chat contains a client program (not yet public) and a [server programm](https://github.com/MapManagement/un-chat) and
-was meant to work as a simple desktop messenger to test the gRPC framework.
-- [weisserbot](https://github.com/MapManagement/weisserbot) is also a bot and was used to deliver information in a Twitch chat in one of my friends' stream.
-- [Countdown](https://github.com/MapManagement/Countdown) can be seen as a fun project for a good friend. It's an Android
-application which either works like a stopwatch or a timer but can be customized in some aspects. Don't expect too much :)
-- [mapgame](https://github.com/MapManagement/mapgame) shouldn't be taken too seriously as well. I wanted to test some game
-libraries for Python and started to write this little game. Maybe I'll rework it in the future, who knows.
-- [MapApp](https://github.com/MapManagement/MapApp) was my first mobile application for Andrdoid devices using Kotlin.
+- un-chat client program (not yet public) and a [server program](https://github.com/MapManagement/un-chat):
+These were meant to work as a simple desktop messenger to test the gRPC framework.
+- [weisserbot](https://github.com/MapManagement/weisserbot): Also a (Twitch) bot that was used to deliver information in a
+Twitch chat in one of my friends' stream.
+- [Countdown](https://github.com/MapManagement/Countdown): This one can be seen as a fun project for a good friend. It's an
+Android application which either works like a stopwatch or a timer but can be customized in some aspects. Don't expect too
+much :D
+- [MapApp](https://github.com/MapManagement/MapApp): My first mobile application for Andrdoid devices using Kotlin.
 I intented to create an app that helps me to learn vocbularies or some other stuff especially for school.
+- [spotify-assistant](https://github.com/MapManagement/spotify-assistant): Resembles somewhat of a CLI for the Spotify Web
+API.
 
 ## Needs to be maintained...
 
-- [Minion](https://github.com/MapManagement/Minion) and [MinionProcesses](https://github.com/MapManagement/MinionProcesses) are two
-projects that belong together and were divided into two separate repositories to maintain a better overview. Minion will 
-be an application with a CLI and GUI to create and modify typical QEMU/KVM guests and is based on MinionProcesses. Last one 
-provides many common QEMU and libvirt processes packed into C# classes.
-- [DoDo](https://github.com/MapManagement/DoDo) is primarily an Android application to write down notes and todos. I also
+- [Minion](https://github.com/MapManagement/Minion) and [MinionProcesses](https://github.com/MapManagement/MinionProcesses):
+Those are two projects that belong together and were divided into two separate repositories to maintain a better overview.
+Minion should be an application with a CLI and GUI to create and modify typical QEMU/KVM guests. It uses the other project,
+which provides many common QEMU and libvirt processes packed into C# classes.
+- [DoDo](https://github.com/MapManagement/DoDo): Primarily an Android application to write down notes and todos. I also
 planned on developing some kind of a [server](https://github.com/MapManagement/DoDo-Server) to synchronize all data from
 clients to a centralized storage.
 
 ## Contributing to...
 
-- [NeuronalNet](https://github.com/beckluca1/NeuronalNet) tries to recognize pictures of traffic signs with a neuronal network.
-A web-app written in Blazor can be used to upload images which are then processed to improve the network. The backend contains 
-a simple database, a gRPC-service and the complete logic to increase the precision of recognizing traffic signs. Both, the backend
-and the frotnend are written in C#.
+- [NeuronalNet](https://github.com/beckluca1/NeuronalNet): I helped a good friend to create a neural network which tries to
+recognize pictures of traffic signs. Users can interact with the backend using a web-app written in Blazor.
