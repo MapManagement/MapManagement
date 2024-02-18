@@ -4,7 +4,7 @@ Computer science student who tries to develop blazingly fast software ... someti
 
 ## 📦 Some repos of mine
 
-### 🔄 Work in progress
+### 🛠️ Work in progress
 
 - [Sorume-Server](https://github.com/MapManagement/sorume-server): Rust backend of a small
 messaging platform.
